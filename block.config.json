@@ -1,0 +1,13 @@
+{
+  "name": "test_b",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/test_b",
+    "ssh": "git@github.com:devthalal/test_b.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
