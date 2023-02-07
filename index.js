@@ -1,6 +1,6 @@
 
 
-const test_b = async (req, res) => {
+const test = async (req, res) => {
 
   // health check
   if (req.params["health"] === "health") {
@@ -9,9 +9,9 @@ const test_b = async (req, res) => {
   }
 
   // Add your code here
-  res.write(JSON.stringify({success: true, msg: `Hello test_b`}))
+  res.write(JSON.stringify({success: true, msg: `Hello test`}))
   res.end()
   
 }
 
-export default test_b
+export default test

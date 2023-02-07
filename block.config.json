@@ -2,7 +2,7 @@
   "name": "test_b",
   "type": "function",
   "source": {
-    "https": "https://github.com/devthalal/test_b",
+    "https": "https://github.com/devthalal/test_b.git",
     "ssh": "git@github.com:devthalal/test_b.git"
   },
   "language": "nodejs",
